@@ -10,6 +10,17 @@ This folder contains visualizations from my object detection and image segmentat
 4. **YOLO11 Nano vs. Small:** A comparison of object detections from two model sizes.
 5. **YOLO-World Detection:** Results using custom text-based object categories.
 
+## Image Data
+
+The lab uses:
+
+- A sample bus image provided through Ultralytics.
+- A desk image containing a laptop, cup, plants, notebook, phone, pen, pen holder, and other objects.
+
+**Image Sources:**
+- [Desk Image — Dreamstime](https://thumbs.dreamstime.com/b/clean-wooden-desk-laptop-modern-office-interior-placed-organized-home-workspace-scene-features-notebook-466469828.jpg)
+- [Bus Image — Ultralytics](https://ultralytics.com/images/bus.jpg)
+
 ## Key Findings
 
 YOLO11 detected eight objects on the desk image at the default confidence threshold. YOLO11-seg produced five segmentation masks, while SAM 2 produced eight using YOLO11 detection boxes as prompts.
